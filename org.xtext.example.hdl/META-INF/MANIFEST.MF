@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.hdl
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.example.hdl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.example.hdl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.16.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.35.0",
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Export-Package: org.xtext.example.hdl.serializer,
+ org.xtext.example.hdl.scoping,
+ org.xtext.example.hdl.parser.antlr,
+ org.xtext.example.hdl.generator,
+ org.xtext.example.hdl.hDL.impl,
+ org.xtext.example.hdl,
+ org.xtext.example.hdl.validation,
+ org.xtext.example.hdl.services,
+ org.xtext.example.hdl.hDL,
+ org.xtext.example.hdl.parser.antlr.internal,
+ org.xtext.example.hdl.hDL.util,
+ org.xtext.example.hdl.parser.antlr.lexer
+Import-Package: org.apache.log4j

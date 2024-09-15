@@ -1,0 +1,17 @@
+Architecture=4
+Begin=7
+Colon=12
+End=8
+Entity=6
+Is=10
+LessThanSignEqualsSign=9
+Of=11
+RULE_ANY_OTHER=20
+RULE_ID=14
+RULE_INT=15
+RULE_ML_COMMENT=17
+RULE_SL_COMMENT=18
+RULE_STRING=16
+RULE_WS=19
+SIGNAL=5
+Semicolon=13
